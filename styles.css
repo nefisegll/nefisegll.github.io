@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+}
+
+.navbar {
+    background-color:darkslateblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block; /* yan yana görünüm */
+    margin-right: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar li a:hover {
+    color:gray;
+}
+
+.navbar-left-icon {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+    color:#ffffff;
+    text-align: left;
+    margin-top: 15px;
+}
+
+/* anasayfa içeriği */
+.home {
+    display: flex;
+    justify-content: center; /* nesneler ortada*/
+    flex-direction: column; /* ögeler alt alta*/
+    text-align: center; 
+    padding: 30px; 
+}
+
+.photo {
+    margin-bottom: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#home-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 55%; 
+}
+
+/* proje kısmı */
+.projects {
+    margin-top: 50px;
+    display: flex; /* projelerin yatayda sıralanmasını sağlar. */ 
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    width: 400px;
+    border: 3px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project:hover {
+    background-color: #f7f7f7;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color:darkslateblue;
+    font-family: "Work Sans", sans-serif;
+}
+
+.project p {
+    font-size: 13px;
+    color:black;
+    font-family:'Times New Roman', Times, serif
+}
+
+.text{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;  
+}
+
+.contact{
+    text-align: center;
+}
